@@ -1,71 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us - Aditya Inn Karur</title>
-  <link rel="stylesheet" href="styles.css">
-  <meta name="description" content="Contact Aditya Inn Karur. Fill the form to enquire about rooms, restaurant, or group bookings.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Aditya Inn Karur - Address, Phone & Enquiry Form | Book Your Stay</title>
+    <link rel="stylesheet" href="styles_dark.css">
+    <meta name="description" content="Contact Aditya Inn Karur directly for room bookings, restaurant reservations, or group inquiries. Find our address, phone numbers, and location near Salem Bypass on Google Maps. We're here to help!">
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Aditya Inn Karur",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "125/1, Yamaha Bikes North, Salem ByePass Road, ByePass roundana near",
+        "addressLocality": "Karur",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "639002",
+        "addressCountry": "IN"
+      },
+      "telephone": "+919994409412",
+      "email": "mailto:hoteladityainnkarur@gmail.com",
+      "url": "https://www.yourwebsite.com/contact.html",
+      "image": "assets/images/Front View 1.png",
+      "priceRange": "$$",
+      "openingHours": [
+        "Mo-Su 00:00-23:59"
+      ],
+      "sameAs": [
+        "https://www.makemytrip.com/hotels/aditya_inn-details-karur.html",
+        "https://www.goibibo.com/hotels/aditya-inn-hotel-in-karur-3402497175775067898/",
+        "YOUR_GOOGLE_MY_BUSINESS_PROFILE_LINK"
+      ]
+    }
+    </script>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Aditya Inn</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="rooms.html">Rooms</a></li>
-          <li><a href="restaurant.html">Restaurant</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="book-now">
-          <a href="https://www.makemytrip.com/hotels/aditya_inn-details-karur.html" target="_blank" class="btn">Book on MakeMyTrip</a>
-          <a href="https://www.goibibo.com/hotels/aditya-inn-hotel-in-karur-3402497175775067898/" target="_blank" class="btn">Book on Goibibo</a>
+    <header>
+        <div class="container">
+            <h1><a href="index.html">Aditya Inn</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="restaurant.html">Restaurant</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="sivmurugaa.html">Sivmurugaa</a></li> <li><a href="saara.html">Saara</a></li> <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="book-now">
+                    <a href="https://www.makemytrip.com/hotels/aditya_inn-details-karur.html" target="_blank" class="btn">Book on MakeMyTrip</a>
+                    <a href="https://www.goibibo.com/hotels/aditya-inn-hotel-in-karur-3402497175775067898/" target="_blank" class="btn">Book on Goibibo</a>
+                </div>
+            </nav>
         </div>
-      </nav>
-    </div>
-  </header>
+    </header>
 
-  <main>
-    <section class="contact">
-      <div class="container">
-        <h2>Contact Us</h2>
-        <p>Have a question or need help with your booking? Use the form below to reach out. We usually respond within 24 hours.</p>
+    <main>
+        <section class="contact">
+            <div class="container">
+                <h2>Get In Touch with Aditya Inn Karur</h2>
+                <p>Have a question about our rooms, amenities, or restaurant? Need assistance with a booking or planning a group stay? Please use the form below to reach out, or contact us directly. Our team is usually responsive within 24 hours.</p>
 
-        <form action="mailto:hoteladityainnkarur@gmail.com" method="POST" enctype="text/plain">
-          <label for="name">Your Name*</label>
-          <input type="text" id="name" name="name" required>
+                <div class="contact-section">
+                    <div class="contact-form-container">
+                        <h3>Send Us a Message</h3>
+                        <form action="mailto:hoteladityainnkarur@gmail.com" method="POST" enctype="text/plain">
+                            <label for="name">Your Name <span style="color: var(--accent-orange);">*</span></label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
 
-          <label for="email">Your Email*</label>
-          <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email <span style="color: var(--accent-orange);">*</span></label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email address">
 
-          <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" name="phone">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="e.g., +91 9876543210">
 
-          <label for="message">Your Message*</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Your Message <span style="color: var(--accent-orange);">*</span></label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us about your query, booking needs, or feedback."></textarea>
 
-          <button type="submit" class="btn">Send Message</button>
-        </form>
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
 
-        <div class="address">
-          <h3>Visit Us</h3>
-          <p>Aditya Inn<br>
-          125/1, Yamaha Bikes North,<br>
-          Salem ByePass Road,<br>
-          ByePass roundana near,<br>
-          Karur, Tamil Nadu 639002</p>
+                    <div class="contact-info-container">
+                        <h3>Visit & Contact Us Directly</h3>
+                        <div class="address">
+                            <p><strong>Aditya Inn</strong><br>
+                            125/1, Yamaha Bikes North,<br>
+                            Salem ByePass Road,<br>
+                            ByePass roundana near,<br>
+                            Karur, Tamil Nadu 639002</p>
+
+                            <p><strong>Phone:</strong> <a href="tel:+919994409412">+91 99944 09412</a>, <a href="tel:+919677735969">+91 96777 35969</a></p>
+                            <p><strong>Email:</strong> <a href="mailto:hoteladityainnkarur@gmail.com">hoteladityainnkarur@gmail.com</a></p>
+                        </div>
+                        <h3 style="margin-top: var(--spacing-md);">Find Us on the Map</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.6846175107693!2d78.07720977464016!3d10.95759715569477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa1157c7d24263%3A0xc3f5a2a2c1f8a81d!2sAditya%20Inn!5e0!3m2!1sen!2sin!4v1717838586940!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                        <p style="text-align: center; margin-top: 15px;"><a href="https://maps.app.goo.gl/YmxuJ6KE84xyDyDh6" target="_blank" rel="noopener noreferrer" class="btn">Get Directions on Google Maps</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Aditya Inn, Karur. All rights reserved.</p>
+            <p>Contact Us: <a href="tel:+919994409412">+91 99944 09412</a>, <a href="tel:+919677735969">+91 96777 35969</a></p>
+            <p>Address: 125/1, Yamaha Bikes North, Salem ByePass Road, ByePass roundana near, Karur, Tamil Nadu 639002</p>
+            <p><a href="https://maps.app.goo.gl/YmxuJ6KE84xyDyDh6" target="_blank" rel="noopener noreferrer">Locate us easily</a></p>
         </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Aditya Inn, Karur. All rights reserved.</p>
-      <p>Contact us: +91 99944 09412, +91 96777 35969</p>
-    </div>
-  </footer>
+    </footer>
 </body>
 </html>
